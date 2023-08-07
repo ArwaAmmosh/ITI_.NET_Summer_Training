@@ -1,0 +1,15 @@
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\Day3\obj\Debug\net7.0\ST_DotNet_G1_Day3.csproj.AssemblyReference.cache
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\Day3\obj\Debug\net7.0\ST_DotNet_G1_Day3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\Day3\obj\Debug\net7.0\ST_DotNet_G1_Day3.AssemblyInfoInputs.cache
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\Day3\obj\Debug\net7.0\ST_DotNet_G1_Day3.AssemblyInfo.cs
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\Day3\obj\Debug\net7.0\ST_DotNet_G1_Day3.csproj.CoreCompileInputs.cache
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\Day3\bin\Debug\net7.0\ST_DotNet_G1_Day3.exe
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\Day3\bin\Debug\net7.0\ST_DotNet_G1_Day3.deps.json
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\Day3\bin\Debug\net7.0\ST_DotNet_G1_Day3.runtimeconfig.json
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\Day3\bin\Debug\net7.0\ST_DotNet_G1_Day3.dll
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\Day3\bin\Debug\net7.0\ST_DotNet_G1_Day3.pdb
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\Day3\obj\Debug\net7.0\ST_DotNet_G1_Day3.dll
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\Day3\obj\Debug\net7.0\refint\ST_DotNet_G1_Day3.dll
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\Day3\obj\Debug\net7.0\ST_DotNet_G1_Day3.pdb
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\Day3\obj\Debug\net7.0\ST_DotNet_G1_Day3.genruntimeconfig.cache
+C:\Users\EL-MASREYIA\OneDrive\Desktop\ITI_.NET\Day3\obj\Debug\net7.0\ref\ST_DotNet_G1_Day3.dll
