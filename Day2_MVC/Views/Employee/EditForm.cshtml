@@ -1,0 +1,53 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@{
+    ViewData["Title"] = "AddForm";
+}
+
+<h1>EditForm</h1>
+
+<form action="/Employee/EditInDB" method="post">
+    <input type="number" id="ID" name="ID" value="@Model.ID" hidden />
+
+    <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input type="text" class="form-control" id="Name" aria-describedby="Name" name="Name" value="@Model.Name">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Age</label>
+        <input type="number" class="form-control" id="Description" aria-describedby="Age" name="Age" value="@Model.Age">
+    </div>
+    <div class="mb-3">
+        <label for="Salary" class="form-label">Salary</label>
+        <input type="number" class="form-control" id="Salary" name="Salary" value="@Model.Salary">
+    </div>
+    <div class="mb-3">
+        <label for="Email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="Email" name="Email" value="@Model.Email">
+    </div>
+   
+    <div class="mb-3">
+        <label for="office" class="form-label">Offices</label>
+        <select class="form-select" id="office" name="office">
+            @foreach (var office in ViewBag.Offices)
+            {
+                @if (office.Id == Model.Office_ID)
+                {
+                    <option value="@office.Id" selected>@office.name</option>
+                }
+                else
+                {
+                    <option value="@office.Id">@office.name</option>
+                }
+            }
+        </select>
+    </div>
+     <div class="mb-3">
+        <label for="Password" class="form-label">Password</label>
+        <input type="text" class="form-control" id="Password" name="Password" value="@Model.Password">
+    </div>
+    <button type="submit" class="btn btn-primary">EDIT</button>
+</form>

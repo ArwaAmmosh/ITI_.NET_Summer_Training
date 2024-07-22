@@ -1,0 +1,53 @@
+﻿@using Day_MVC.ViewModels;
+@model EmployeeData
+@{
+    ViewData["Title"] = "Add";
+}
+
+<h1>Add With validation</h1>
+
+<form a method="post">
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control">
+        <span asp-validation-for="Name"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Age" class="form-label"></label>
+        <input class="form-control" asp-for="Age">
+        <span asp-validation-for="Age"></span>
+
+    </div>
+    <div class="mb-3">
+        <label asp-for="Salary" class="form-label"></label>
+        <input asp-for="Salary" class="form-control">
+        <span asp-validation-for="Salary"></span>
+
+    </div>
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label"></label>
+        <input asp-for="Email" class="form-control">
+        <span asp-validation-for="Email"></span>
+
+    </div>
+    <div class="mb-3">
+        <label asp-for="Office_ID" class="form-label"></label>
+        <select class="form-select" asp-for="Office_ID" asp-items="@Model.office">
+            <option selected>Open this select menu</option>    
+        </select>
+        <span asp-validation-for="Office_ID"></span>
+
+    </div>
+    <div class="mb-3">
+        <label asp-for="Password" class="form-label"></label>
+        <input asp-for="Password" class="form-control" >
+        <span asp-validation-for="Password"></span>
+        </div>
+        <div class="mb-3">
+        <label asp-for="ConfirmPassword" class="form-label"></label>
+        <input class="form-control" asp-for="ConfirmPassword">
+        <span asp-validation-for="ConfirmPassword"></span>
+
+    </div>
+    <button type="submit" class="btn btn-primary">ADD</button>
+</form>

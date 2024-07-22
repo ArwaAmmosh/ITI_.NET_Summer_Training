@@ -1,0 +1,49 @@
+﻿
+@model List<Employee>
+@{
+    ViewData["Title"] = "Index";
+    int i = 1;
+}
+
+<h1>Employee</h1>
+
+
+<table class="table table-info">
+    <thead>
+        <tr>
+            
+            <th scope="col">ID</th>
+            <th scope="col">NAME</th>
+            <th scope="col">AGE</th>
+            <th scope="col">SALARY</th>
+            <th scope="col">Email</th>
+            <th></th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <th scope="row">@(i++)</th>
+                <td>@item.Name</td>
+                <td>@item.Age</td>
+                <td>@item.Salary</td>
+                <td>@item.Email</td>
+                <td>
+
+                    <a href="/Employee/EditForm/@item.ID"><i class="fa-solid fa-pen-to-square"></i></a>
+                    </td>
+                    <td>
+                    <a href="/Employee/Delete/@item.ID"><i class="fa-solid fa-trash"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<hr/>
+<a href="/Employee/AddForm" class="btn btn-info">ADD</a>
+<a href="/Validation/Add" class="btn btn-info">ADD With Validation</a>
+
+
